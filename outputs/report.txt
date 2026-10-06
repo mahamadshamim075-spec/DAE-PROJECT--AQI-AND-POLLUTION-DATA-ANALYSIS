@@ -1,0 +1,57 @@
+AQI & POLLUTION DATA ANALYSIS — SUMMARY REPORT
+==================================================
+Total stations/readings analyzed: 138
+Unique cities: 135
+Overall average AQI: 129.3
+Overall median AQI: 131.5
+
+TOP 10 WORST AIR QUALITY CITIES (highest avg AQI)
+--------------------------------------------------
+  Aurangabad                               384.0
+  New Delhi US Embassy                     317.0
+  Hajipur                                  267.0
+  Begusarai                                262.0
+  Asansol                                  260.0
+  Buxar                                    241.0
+  Faridabad                                239.0
+  Hassan                                   238.0
+  Kalaburagi                               237.0
+  Pune                                     232.0
+
+TOP 10 BEST AIR QUALITY CITIES (lowest avg AQI)
+--------------------------------------------------
+  Tulle centre                             5.0
+  Oha                                      10.0
+  Gandhinagar                              11.0
+  Oregon                                   13.0
+  Mons                                     15.0
+  Rajamahendravaram                        19.0
+  Le Havre                                 21.0
+  Kochi                                    25.0
+  Hamadan                                  30.0
+  Madikeri                                 38.0
+
+AQI HEALTH CATEGORY DISTRIBUTION
+--------------------------------------------------
+  Unhealthy                           44
+  Moderate                            35
+  Unhealthy for Sensitive Groups      31
+  Good                                14
+  Very Unhealthy                      12
+  Hazardous                           2
+
+POLLUTANT MOST CORRELATED WITH AQI
+--------------------------------------------------
+  PM2.5      r = 0.668
+  PM10       r = 0.288
+  O3         r = 0.260
+  CO         r = 0.196
+  NO2        r = 0.180
+  SO2        r = -0.040
+
+Charts saved to outputs/graphs/:
+  - aqi_distribution.png
+  - top_cities_aqi.png
+  - pollutant_correlation.png
+  - aqi_category_distribution.png
+  - monthly_aqi_trend.png
